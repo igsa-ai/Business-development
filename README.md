@@ -36,7 +36,7 @@
    * **Google Workspace (Drive, Docs, Sheets, Slides)**（契約書、提案書、財務資料）
    * **Slack**（コミュニケーション）
    * **GitHub Issues / Projects**（タスクトラッキング）
-   * **FigJam**（構造化）
+   * **FigJam**（構造化、論点整理）
 3. **Business Board** をブックマーク: <[https://github.com/orgs/](https://github.com/orgs/)<org>/projects/2>
 
 ---
