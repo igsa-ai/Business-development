@@ -32,11 +32,11 @@
 1. **アクセス権**: `Business` チームに追加され、Writer 権限があることを確認。
 2. **使用ツール**
 
-   * **Notion**（長文ドキュメント、マニュアル、議事録）
+   * **Notion**（長文ドキュメント、マニュアル、議事録、顧客ステータス管理）
    * **Google Workspace (Drive, Docs, Sheets, Slides)**（契約書、提案書、財務資料）
-   * **HubSpot / CRM**（セールスパイプライン）
    * **Slack**（コミュニケーション）
    * **GitHub Issues / Projects**（タスクトラッキング）
+   * **FigJam**（構造化）
 3. **Business Board** をブックマーク: <[https://github.com/orgs/](https://github.com/orgs/)<org>/projects/2>
 
 ---
