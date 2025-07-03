@@ -115,7 +115,6 @@ body:
         - [ ] Status ラベルが設定されている（todo / in-progress / review / done）
         - [ ] Priority ラベルが設定されている（p0 / p1 / p2）
         - [ ] Start Date と End Date が設定されている
-        - [ ] Reviewers（レビュワー）が設定されている
 
         ## 🗂️ ストレージポリシー
 
