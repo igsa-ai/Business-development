@@ -101,20 +101,23 @@ body:
       description: "その他補足事項があれば記載してください"
       placeholder: "参考資料、ステークホルダー、リスクなど"
 
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: 確認事項
+      description: 以下の項目をご確認ください
+      options:
+        - label: 入力内容に間違いがないことを確認しました
+          required: true
+        - label: 契約金額・見積金額は機密情報として適切に管理されることを理解しました
+          required: true
+        - label: プロジェクトIDは自動生成されることを理解しました
+          required: true
+
   - type: markdown
     attributes:
       value: |
         ---
-
-        ## 📋 チェックリスト（作成者用）
-
-        Issue 作成後、以下を確認してチェックを付けてください：
-
-        - [ ] Assignee が設定されている
-        - [ ] GitHub Projects ボードに追加されている
-        - [ ] Status ラベルが設定されている（todo / in-progress / review / done）
-        - [ ] Priority ラベルが設定されている（p0 / p1 / p2）
-        - [ ] Start Date と End Date が設定されている
 
         ## 🗂️ ストレージポリシー
 
