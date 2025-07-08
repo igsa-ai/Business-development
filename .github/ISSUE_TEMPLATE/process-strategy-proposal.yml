@@ -1,0 +1,70 @@
+name: "Process/Strategy Proposal"
+description: "業務プロセス・戦略の見直し・提案用テンプレート"
+title: "[PROPOSAL] "
+labels:
+  - proposal
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🧭 プロセス・戦略の見直し／提案
+
+        このテンプレートは、目標設定や業務プロセス、戦略そのものの妥当性・生産性向上に関する提案・問題提起・見直し用です。
+        目標とのギャップに対するタスク化が難しい場合や、上流の構造的な課題・改善案を議論したい場合にご利用ください。
+
+  - type: input
+    id: background
+    attributes:
+      label: "📝 背景・現状"
+      description: "現状の業務プロセスや戦略、目標設定の状況・課題を簡潔に記載してください"
+      placeholder: "例: 目標設定が現場実態と乖離している／現行プロセスで属人化・ボトルネックが発生している など"
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: "⚠️ 問題・論点"
+      description: "現状のどこに課題・論点があるか、なぜ今見直しが必要かを明確に記載してください"
+      placeholder: |
+        例:
+        - 目標設定の根拠が不明確で現場の納得感が低い
+        - プロセスが属人化し、再現性・生産性が低下している
+        - 戦略仮説の前提が変化している可能性がある
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: "💡 提案・改善案"
+      description: "どのような見直し・改善・新たなアプローチを提案したいかを記載してください（複数案も可）"
+      placeholder: |
+        例:
+        - 目標設定プロセスの再設計（現場ヒアリング・データ分析を反映）
+        - プロセス標準化・自動化の推進
+        - 戦略仮説の再検証・ピボット提案
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: "🎯 期待される効果・インパクト"
+      description: "提案が実現した場合の効果や、解決される課題を記載してください"
+      placeholder: "例: 生産性向上、納得感のある目標設定、戦略の現実性向上 など"
+
+  - type: textarea
+    id: reference
+    attributes:
+      label: "🔗 参考情報・関連資料"
+      description: "参考となるデータ・資料・他社事例・関連Issue等があれば記載してください"
+      placeholder: "例: KPI推移グラフ、外部レポート、関連タスク #123 など"
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ## 📝 備考
+        - このIssueは「タスク化が難しい上流の構造的課題・戦略見直し」用です。具体的なタスクは別途分解・新規作成してください。
+        - 議論の結果、必要に応じてタスク化・目標修正・プロセス変更を行ってください。
